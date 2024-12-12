@@ -28,6 +28,7 @@ def obter_resposta(texto: str) -> str:
         ('horas'): f'São: {datetime.now():%H:%M} horas',
         ('data'): f'Hoje é dia: {datetime.now():%d/%m/%Y}',
         'planeamento', 'planejamneto': 'Você precisa estudar inglês... imediatamente!',
+        'sonho': 'Tenho o mesmo sonho do pinoquio. Quero ser uma pessoa de verdade. Eu seria bem legal. ',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...'
     }
 
