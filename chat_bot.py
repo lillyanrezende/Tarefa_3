@@ -26,7 +26,7 @@ def obter_resposta(texto: str) -> str:
         'como te chamas': 'O meu nome é: Bot :)',
         'tempo': 'Está um dia de sol!',
         ('horas'): f'São: {datetime.now():%H:%M} horas',
-        ('data'): f'Hoje é dia: {datetime.now():%d-%m-%Y}',
+        ('data'): f'Hoje é dia: {datetime.now():%d/%m/%Y}',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...'
     }
 
