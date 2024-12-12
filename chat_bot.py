@@ -29,6 +29,7 @@ def obter_resposta(texto: str) -> str:
         ('data'): f'Hoje é dia: {datetime.now():%d/%m/%Y}',
         'planeamento', 'planejamneto': 'Você precisa estudar inglês... imediatamente!',
         'sonho': 'Tenho o mesmo sonho do pinoquio. Quero ser uma pessoa de verdade. Eu seria bem legal. ',
+        'comer', 'fome', 'comida': 'Precisa fazer dieta e emagrecer um pouco.',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...'
     }
 
